@@ -1,4 +1,4 @@
-git clone git@github.com:SabirzhanovN/findNodApi.git
+git clone https://github.com/SabirzhanovN/findNodApi.git
 cd findNodApi
 
 python3 -m venv venv
