@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*$py.class
+
+# Environment
+.env
+venv/
+env/
+/site/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.sqlite3
+local_settings.py
+# media folder is for user uploads, which should not be in version control
+media/
+# static folder can be ignored if you run collectstatic on deployment
+static/
+
+# IDE-specific files and folders
+.idea/  # JetBrains IDEs like PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Testing and coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
